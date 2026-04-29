@@ -6,11 +6,13 @@ on:
     branches: [ main ]
     paths:
       - lexicon.xml
+      - scripts/validate-lexicon.sh
       - .github/workflows/ci.yaml
   pull_request:
     branches: [ main ]
     paths:
       - lexicon.xml
+      - scripts/validate-lexicon.sh
       - .github/workflows/ci.yaml
 
 permissions:
@@ -41,10 +43,22 @@ jobs:
         with:
           dotnet-version: '3.1.x'
 
+      - name: Prepare validator input
+        shell: pwsh
+        run: |
+          $validatorLexicon = '.\lexicon.validator.xml'
+          $content = Get-Content .\lexicon.xml -Raw
+
+          # Azure Learn documents custom lexicon with x-microsoft-sapi,
+          # but the Azure Samples validator still only accepts sapi.
+          $content = $content.Replace('alphabet="x-microsoft-sapi"', 'alphabet="sapi"')
+
+          Set-Content -Path $validatorLexicon -Value $content
+
       - name: Verify lexicon file
         shell: pwsh
         run: |
-          $result = .\tts\CustomLexiconValidation\CustomLexiconValidation.exe -CustomLexiconFilePath .\lexicon.xml -LogFile log.txt
+          $result = .\tts\CustomLexiconValidation\CustomLexiconValidation.exe -CustomLexiconFilePath .\lexicon.validator.xml -LogFile log.txt
           if ($LASTEXITCODE -ne 0) {
             if (Test-Path .\log.txt) {
               Get-Content .\log.txt | Write-Output

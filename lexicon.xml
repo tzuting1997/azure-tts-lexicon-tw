@@ -8,26 +8,6 @@
          xml:lang="zh-TW">
 
   <lexeme>
-    <grapheme>LiveKit</grapheme>
-    <alias>livekit_tw</alias>
-  </lexeme>
-
-  <lexeme>
-    <grapheme>livekit_tw</grapheme>
-    <phoneme>lai 2 fu 1 ji 1 te 4</phoneme>
-  </lexeme>
-
-  <lexeme>
-    <grapheme>AI</grapheme>
-    <alias>ai_tw</alias>
-  </lexeme>
-
-  <lexeme>
-    <grapheme>ai_tw</grapheme>
-    <phoneme>ei 1 ai 1</phoneme>
-  </lexeme>
-
-  <lexeme>
     <grapheme>調味料</grapheme>
     <phoneme>tiao 2 wei 4 liao 4</phoneme>
   </lexeme>
@@ -39,61 +19,61 @@
 
   <lexeme>
     <grapheme>維他命 B1</grapheme>
-    <alias>vitamin_b1_tw</alias>
+    <alias>VitaminBOneTW</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>vitamin_b1_tw</grapheme>
+    <grapheme>VitaminBOneTW</grapheme>
     <phoneme>wei 2 ta 1 ming 4 bi 1 yi 1</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>維他命 B2</grapheme>
-    <alias>vitamin_b2_tw</alias>
+    <alias>VitaminBTwoTW</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>vitamin_b2_tw</grapheme>
+    <grapheme>VitaminBTwoTW</grapheme>
     <phoneme>wei 2 ta 1 ming 4 bi 1 er 4</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>維他命 B3</grapheme>
-    <alias>vitamin_b3_tw</alias>
+    <alias>VitaminBThreeTW</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>vitamin_b3_tw</grapheme>
+    <grapheme>VitaminBThreeTW</grapheme>
     <phoneme>wei 2 ta 1 ming 4 bi 1 san 1</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>維生素 B1</grapheme>
-    <alias>vitamin_c_b1_tw</alias>
+    <alias>NutrientBOneTW</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>vitamin_c_b1_tw</grapheme>
+    <grapheme>NutrientBOneTW</grapheme>
     <phoneme>wei 2 sheng 1 su 4 bi 1 yi 1</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>維生素 B2</grapheme>
-    <alias>vitamin_c_b2_tw</alias>
+    <alias>NutrientBTwoTW</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>vitamin_c_b2_tw</grapheme>
+    <grapheme>NutrientBTwoTW</grapheme>
     <phoneme>wei 2 sheng 1 su 4 bi 1 er 4</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>維生素 B3</grapheme>
-    <alias>vitamin_c_b3_tw</alias>
+    <alias>NutrientBThreeTW</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>vitamin_c_b3_tw</grapheme>
+    <grapheme>NutrientBThreeTW</grapheme>
     <phoneme>wei 2 sheng 1 su 4 bi 1 san 1</phoneme>
   </lexeme>
 
