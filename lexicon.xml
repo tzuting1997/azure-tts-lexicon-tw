@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lexicon version="1.0"
          xmlns="http://www.w3.org/2005/01/pronunciation-lexicon"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2005/01/pronunciation-lexicon
+           http://www.w3.org/TR/2007/CR-pronunciation-lexicon-20071212/pls.xsd"
          alphabet="x-microsoft-sapi"
          xml:lang="zh-TW">
 
   <lexeme>
     <grapheme>LiveKit</grapheme>
-    <phoneme>L AY V K IH T</phoneme>
+    <alias>livekit_tw</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>livekit_tw</grapheme>
+    <phoneme>lai 2 fu 1 ji 1 te 4</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>AI</grapheme>
-    <phoneme>EY AY</phoneme>
+    <alias>ai_tw</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>ai_tw</grapheme>
+    <phoneme>ei 1 ai 1</phoneme>
   </lexeme>
 
   <lexeme>
@@ -26,32 +39,62 @@
 
   <lexeme>
     <grapheme>維他命 B1</grapheme>
-    <phoneme>wei 2 ta 1 ming 4 b iy w ah n</phoneme>
+    <alias>vitamin_b1_tw</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>vitamin_b1_tw</grapheme>
+    <phoneme>wei 2 ta 1 ming 4 bi 1 yi 1</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>維他命 B2</grapheme>
-    <phoneme>wei 2 ta 1 ming 4 b iy t uw</phoneme>
+    <alias>vitamin_b2_tw</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>vitamin_b2_tw</grapheme>
+    <phoneme>wei 2 ta 1 ming 4 bi 1 er 4</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>維他命 B3</grapheme>
-    <phoneme>wei 2 ta 1 ming 4 b iy san 1</phoneme>
+    <alias>vitamin_b3_tw</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>vitamin_b3_tw</grapheme>
+    <phoneme>wei 2 ta 1 ming 4 bi 1 san 1</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>維生素 B1</grapheme>
-    <phoneme>wei 2 sheng 1 su 4 b iy w ah n</phoneme>
+    <alias>vitamin_c_b1_tw</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>vitamin_c_b1_tw</grapheme>
+    <phoneme>wei 2 sheng 1 su 4 bi 1 yi 1</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>維生素 B2</grapheme>
-    <phoneme>wei 2 sheng 1 su 4 b iy t uw</phoneme>
+    <alias>vitamin_c_b2_tw</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>vitamin_c_b2_tw</grapheme>
+    <phoneme>wei 2 sheng 1 su 4 bi 1 er 4</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>維生素 B3</grapheme>
-    <phoneme>wei 2 sheng 1 su 4 b iy san 1</phoneme>
+    <alias>vitamin_c_b3_tw</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>vitamin_c_b3_tw</grapheme>
+    <phoneme>wei 2 sheng 1 su 4 bi 1 san 1</phoneme>
   </lexeme>
 
 </lexicon>
