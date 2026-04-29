@@ -23,12 +23,22 @@
   </lexeme>
 
   <lexeme>
+    <grapheme>維他命B1</grapheme>
+    <alias>VitaminBOneTW</alias>
+  </lexeme>
+
+  <lexeme>
     <grapheme>VitaminBOneTW</grapheme>
     <phoneme>wei 2 ta 1 ming 4 bi 1 yi 1</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>維他命 B2</grapheme>
+    <alias>VitaminBTwoTW</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維他命B2</grapheme>
     <alias>VitaminBTwoTW</alias>
   </lexeme>
 
@@ -43,12 +53,22 @@
   </lexeme>
 
   <lexeme>
+    <grapheme>維他命B3</grapheme>
+    <alias>VitaminBThreeTW</alias>
+  </lexeme>
+
+  <lexeme>
     <grapheme>VitaminBThreeTW</grapheme>
     <phoneme>wei 2 ta 1 ming 4 bi 1 san 1</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>維生素 B1</grapheme>
+    <alias>NutrientBOneTW</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素B1</grapheme>
     <alias>NutrientBOneTW</alias>
   </lexeme>
 
@@ -63,12 +83,22 @@
   </lexeme>
 
   <lexeme>
+    <grapheme>維生素B2</grapheme>
+    <alias>NutrientBTwoTW</alias>
+  </lexeme>
+
+  <lexeme>
     <grapheme>NutrientBTwoTW</grapheme>
     <phoneme>wei 2 sheng 1 su 4 bi 1 er 4</phoneme>
   </lexeme>
 
   <lexeme>
     <grapheme>維生素 B3</grapheme>
+    <alias>NutrientBThreeTW</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素B3</grapheme>
     <alias>NutrientBThreeTW</alias>
   </lexeme>
 
