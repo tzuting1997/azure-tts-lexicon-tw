@@ -1,31 +1,64 @@
-name: Verify
+name: CI
 
 on:
   workflow_dispatch:
   push:
     branches: [ main ]
+    paths:
+      - lexicon.xml
+      - .github/workflows/ci.yaml
   pull_request:
     branches: [ main ]
+    paths:
+      - lexicon.xml
+      - .github/workflows/ci.yaml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   verify:
     runs-on: windows-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Checkout Azure lexicon validator
+        uses: actions/checkout@v4
         with:
-           repository: 'Azure-Samples/Cognitive-Speech-TTS'
-           path: 'tts'
-      - uses: actions/setup-dotnet@v3
+          repository: Azure-Samples/Cognitive-Speech-TTS
+          path: tts
+          sparse-checkout: |
+            CustomLexiconValidation
+
+      - name: Install .NET runtime
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '3.1.x'
+
       - name: Verify lexicon file
         shell: pwsh
         run: |
-          $result=$(.\tts\CustomLexiconValidation\CustomLexiconValidation.exe -CustomLexiconFilePath .\lexicon.xml -LogFile "log.txt")
-          if($result -notlike "*Custom lexicon file format is correct. Please use it through SSML.*"){
-            $result=$(cat ".\log.txt")
-            throw $result
-          }else{
-            echo $result
+          $result = .\tts\CustomLexiconValidation\CustomLexiconValidation.exe -CustomLexiconFilePath .\lexicon.xml -LogFile log.txt
+          if ($LASTEXITCODE -ne 0) {
+            if (Test-Path .\log.txt) {
+              Get-Content .\log.txt | Write-Output
+            }
+
+            throw "Custom lexicon validation failed."
           }
+
+          if ($result -notlike "*Custom lexicon file format is correct. Please use it through SSML.*") {
+            if (Test-Path .\log.txt) {
+              Get-Content .\log.txt | Write-Output
+            }
+
+            throw "Validator did not report a successful result."
+          }
+
+          Write-Output $result
