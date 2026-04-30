@@ -2,11 +2,11 @@
 
 ![ci](https://github.com/mcw519/azure-tts-lexicon-tw/actions/workflows/ci.yaml/badge.svg)
 
-適用於 LiveKit 搭配 Azure Text to Speech 服務的中文自訂詞典。
+適用於 Azure Text to Speech 服務的中文自訂詞典。
 
 Azure TTS 的發音已經相當自然，但在中文多音字、專有名詞或特定語境上，仍然可能出現讀音不準的情況。這個 repo 提供一份可直接透過 SSML 引用的自訂詞典，用來補強預設發音規則。
 
-這份 lexicon 的實際使用場景是 LiveKit 的 Azure Speech TTS。雖然上層是 LiveKit Agents/plugin，但真正解析 `lexicon.xml` 的仍然是 Azure Speech，所以詞典格式、locale、alphabet 與驗證規則都還是以 Azure 官方 custom lexicon 規格為準。
+這份 lexicon 由 Azure Speech 服務解析，因此詞典格式、locale、alphabet 與驗證規則都以 Azure 官方 custom lexicon 規格為準。
 
 Azure TTS 支援在 SSML 中透過詞典 URL 載入自訂 lexicon。因為該檔案必須能從公網存取，直接放在 GitHub 上通常是最省事的做法，也方便後續持續維護與分享。
 
@@ -28,7 +28,7 @@ https://raw.githubusercontent.com/mcw519/azure-tts-lexicon-tw/main/lexicon.xml
        xml:lang="zh-TW">
     <voice name="zh-TW-HsiaoChenNeural">
         <lexicon uri="https://raw.githubusercontent.com/mcw519/azure-tts-lexicon-tw/main/lexicon.xml"/>
-        這款產品有維他命 B1，LiveKit 的整合也已經完成。
+        這款產品有維他命 B1。
     </voice>
 </speak>
 ```
@@ -36,17 +36,15 @@ https://raw.githubusercontent.com/mcw519/azure-tts-lexicon-tw/main/lexicon.xml
 Azure 官方文件可參考：
 https://learn.microsoft.com/zh-tw/azure/ai-services/speech-service/speech-synthesis-markup-pronunciation#custom-lexicon
 
-## LiveKit 使用注意
+## Azure 使用注意
 
-如果你是透過 LiveKit 的 Azure Speech TTS plugin 使用這份詞典，關鍵不是「LiveKit 有沒有載入這個 XML」，而是「Azure 最後收到的內容是不是包含 `<lexicon uri="..."/>` 的 SSML」。
+這份詞典是否生效，關鍵在於 Azure 最後收到的內容是不是包含 `<lexicon uri="..."/>` 的 SSML。
 
 也就是說：
 
 1. 這份 lexicon 必須放在 Azure 可公開存取的 URL。
 2. 送到 Azure TTS 的 SSML 內必須真的包含 `<lexicon uri="..."/>`。
-3. 如果 LiveKit 這一層最後送出去的只是純文字，而不是帶有 `lexicon` 標籤的 SSML，這份詞典就不會生效。
-
-LiveKit 官方文件也有寫到 Azure Speech TTS plugin 支援 SSML 發音控制，因此這個 repo 的設計前提就是讓 Azure 端透過 SSML 來引用這份詞典，而不是讓 LiveKit 直接解析 lexicon 檔本身。
+3. 如果實際送到 Azure 的只是純文字，而不是帶有 `lexicon` 標籤的 SSML，這份詞典就不會生效。
 
 ## 驗證流程
 

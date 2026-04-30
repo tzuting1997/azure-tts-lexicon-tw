@@ -18,6 +18,11 @@
   </lexeme>
 
   <lexeme>
+    <grapheme>B2</grapheme>
+    <alias>逼兔</alias>
+  </lexeme>
+
+  <lexeme>
     <grapheme>維他命 B1</grapheme>
     <alias>維他命逼萬</alias>
   </lexeme>
@@ -29,12 +34,12 @@
 
   <lexeme>
     <grapheme>維他命 B2</grapheme>
-    <alias>維他命逼吐</alias>
+    <alias>維他命逼兔</alias>
   </lexeme>
 
   <lexeme>
     <grapheme>維他命B2</grapheme>
-    <alias>維他命逼吐</alias>
+    <alias>維他命逼兔</alias>
   </lexeme>
 
   <lexeme>
@@ -109,12 +114,12 @@
 
   <lexeme>
     <grapheme>維生素 B2</grapheme>
-    <alias>維生素逼吐</alias>
+    <alias>維生素逼兔</alias>
   </lexeme>
 
   <lexeme>
     <grapheme>維生素B2</grapheme>
-    <alias>維生素逼吐</alias>
+    <alias>維生素逼兔</alias>
   </lexeme>
 
   <lexeme>
