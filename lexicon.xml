@@ -19,22 +19,22 @@
 
   <lexeme>
     <grapheme>維他命 B1</grapheme>
-    <alias>維他命比一</alias>
+    <alias>維他命逼萬</alias>
   </lexeme>
 
   <lexeme>
     <grapheme>維他命B1</grapheme>
-    <alias>維他命逼一</alias>
+    <alias>維他命逼萬</alias>
   </lexeme>
 
   <lexeme>
     <grapheme>維他命 B2</grapheme>
-    <alias>維他命逼二</alias>
+    <alias>維他命逼吐</alias>
   </lexeme>
 
   <lexeme>
     <grapheme>維他命B2</grapheme>
-    <alias>維他命逼二</alias>
+    <alias>維他命逼吐</alias>
   </lexeme>
 
   <lexeme>
@@ -48,23 +48,73 @@
   </lexeme>
 
   <lexeme>
+    <grapheme>維他命 B5</grapheme>
+    <alias>維他命逼五</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維他命B5</grapheme>
+    <alias>維他命逼五</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維他命 B6</grapheme>
+    <alias>維他命逼六</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維他命B6</grapheme>
+    <alias>維他命逼六</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維他命 B7</grapheme>
+    <alias>維他命逼七</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維他命B7</grapheme>
+    <alias>維他命逼七</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維他命 B9</grapheme>
+    <alias>維他命逼九</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維他命B9</grapheme>
+    <alias>維他命逼九</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維他命 B12</grapheme>
+    <alias>維他命逼十二</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維他命B12</grapheme>
+    <alias>維他命逼十二</alias>
+  </lexeme>
+
+  <lexeme>
     <grapheme>維生素 B1</grapheme>
-    <alias>維生素逼一</alias>
+    <alias>維生素逼萬</alias>
   </lexeme>
 
   <lexeme>
     <grapheme>維生素B1</grapheme>
-    <alias>維生素逼一</alias>
+    <alias>維生素逼萬</alias>
   </lexeme>
 
   <lexeme>
     <grapheme>維生素 B2</grapheme>
-    <alias>維生素逼二</alias>
+    <alias>維生素逼吐</alias>
   </lexeme>
 
   <lexeme>
     <grapheme>維生素B2</grapheme>
-    <alias>維生素逼二</alias>
+    <alias>維生素逼吐</alias>
   </lexeme>
 
   <lexeme>
@@ -75,6 +125,86 @@
   <lexeme>
     <grapheme>維生素B3</grapheme>
     <alias>維生素逼三</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素 B5</grapheme>
+    <alias>維生素逼五</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素B5</grapheme>
+    <alias>維生素逼五</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素 B6</grapheme>
+    <alias>維生素逼六</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素B6</grapheme>
+    <alias>維生素逼六</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素 B7</grapheme>
+    <alias>維生素逼七</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素B7</grapheme>
+    <alias>維生素逼七</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素 B9</grapheme>
+    <alias>維生素逼九</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素B9</grapheme>
+    <alias>維生素逼九</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素 B12</grapheme>
+    <alias>維生素逼十二</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素B12</grapheme>
+    <alias>維生素逼十二</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素 D2</grapheme>
+    <alias>維生素滴吐</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素D2</grapheme>
+    <alias>維生素滴吐</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素 D3</grapheme>
+    <alias>維生素滴三</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>維生素D3</grapheme>
+    <alias>維生素滴三</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>說服</grapheme>
+    <alias>稅服</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>正露丸</grapheme>
+    <alias>正路丸</alias>
   </lexeme>
 
 </lexicon>
