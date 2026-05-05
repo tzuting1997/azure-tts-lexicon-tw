@@ -217,4 +217,14 @@
     <alias>正路丸</alias>
   </lexeme>
 
+  <lexeme>
+    <grapheme>輔酶 Q10</grapheme>
+    <alias>輔酶 Q ten</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>輔酶Q10</grapheme>
+    <alias>輔酶 Q ten</alias>
+  </lexeme>
+
 </lexicon>
