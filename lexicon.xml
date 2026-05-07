@@ -227,4 +227,29 @@
     <alias>輔酶 Q ten</alias>
   </lexeme>
 
+  <lexeme>
+    <grapheme>量力而為</grapheme>
+    <alias>亮力而為</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>量測完成</grapheme>
+    <alias>梁測完成</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>量測</grapheme>
+    <alias>梁測</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>媽媽露</grapheme>
+    <alias>媽媽鹿</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>日常點心</grapheme>
+    <alias>日常點新</alias>
+  </lexeme>
+
 </lexicon>
