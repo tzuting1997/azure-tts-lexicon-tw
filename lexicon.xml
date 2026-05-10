@@ -252,4 +252,29 @@
     <alias>日常點新</alias>
   </lexeme>
 
+  <lexeme>
+    <grapheme>補給站</grapheme>
+    <alias>補幾站</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>新露露</grapheme>
+    <alias>新路鹿</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>新露露</grapheme>
+    <alias>新路鹿</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>不太舒服</grapheme>
+    <alias>不太書服</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>調飲料</grapheme>
+    <alias>條飲料</alias>
+  </lexeme>
+
 </lexicon>
