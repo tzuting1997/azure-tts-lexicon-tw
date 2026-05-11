@@ -292,4 +292,9 @@
     <alias>胃您</alias>
   </lexeme>
 
+  <lexeme>
+    <grapheme>生理量測</grapheme>
+    <alias>生理梁測</alias>
+  </lexeme>
+
 </lexicon>
