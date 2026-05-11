@@ -263,11 +263,6 @@
   </lexeme>
 
   <lexeme>
-    <grapheme>新露露</grapheme>
-    <alias>新路鹿</alias>
-  </lexeme>
-
-  <lexeme>
     <grapheme>不太舒服</grapheme>
     <alias>不太書服</alias>
   </lexeme>
@@ -275,6 +270,26 @@
   <lexeme>
     <grapheme>調飲料</grapheme>
     <alias>條飲料</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>血壓</grapheme>
+    <alias>寫壓</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>血氧</grapheme>
+    <alias>寫氧</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>儘快</grapheme>
+    <alias>進快</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>為您</grapheme>
+    <alias>胃您</alias>
   </lexeme>
 
 </lexicon>
