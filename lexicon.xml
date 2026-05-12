@@ -302,4 +302,19 @@
     <alias>崇新</alias>
   </lexeme>
 
+  <lexeme>
+    <grapheme>沖調區</grapheme>
+    <alias>沖條區</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>沖調</grapheme>
+    <alias>沖條</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>沖調類</grapheme>
+    <alias>沖條類</alias>
+  </lexeme>
+
 </lexicon>
