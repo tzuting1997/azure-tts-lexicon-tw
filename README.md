@@ -2,56 +2,58 @@
 
 ![ci](https://github.com/mcw519/azure-tts-lexicon-tw/actions/workflows/ci.yaml/badge.svg)
 
-適用於 Azure Text to Speech 服務的中文自訂詞典。
+這個分支目前提供一份給 Azure Text to Speech 英文語音使用的自訂詞典範例，目標 locale 是 `en-US`。
 
-Azure TTS 的發音已經相當自然，但在中文多音字、專有名詞或特定語境上，仍然可能出現讀音不準的情況。這個 repo 提供一份可直接透過 SSML 引用的自訂詞典，用來補強預設發音規則。
+Azure TTS 預設發音通常已經不錯，但縮寫、品牌名、人名、產品名，或大小寫敏感的字詞，還是很容易出現不符合需求的讀法。這份 repo 提供一份可直接透過 SSML 引用的 custom lexicon，讓你在 Azure Speech 端覆蓋預設發音。
 
-這份 lexicon 由 Azure Speech 服務解析，因此詞典格式、locale、alphabet 與驗證規則都以 Azure 官方 custom lexicon 規格為準。
-
-Azure TTS 支援在 SSML 中透過詞典 URL 載入自訂 lexicon。因為該檔案必須能從公網存取，直接放在 GitHub 上通常是最省事的做法，也方便後續持續維護與分享。
-
-這份詞典目前採用 Azure 官方支援的 PLS 1.0 格式，`xml:lang="zh-TW"` 並搭配 `alphabet="x-microsoft-sapi"`。實務上這份 repo 目前優先使用 `alias` 寫法，特別是中文詞組或英數混合詞，盡量改寫成 Azure validator 可以接受的純文字替代讀法，避免直接在 `zh-TW` 詞典內維護容易被工具拒絕的 phoneme token。
+目前這份英文 lexicon 採用 Azure 官方支援的 PLS 1.0 格式，`xml:lang="en-US"` 並搭配 `alphabet="ipa"`。對英文詞典來說，`ipa` 比較直觀，也比較接近 Azure Learn 文件的主要範例；縮寫或多詞片語則優先使用 `alias`，避免直接對片語硬寫 phoneme。
 
 ## 使用方式
 
-詞典檔案連結：
-
-```text
-https://raw.githubusercontent.com/mcw519/azure-tts-lexicon-tw/main/lexicon.xml
-```
-
-在 SSML 中引用詞典：
+請先把 [lexicon.xml](lexicon.xml) 放到可公開存取的 URL，例如 GitHub Raw 或 Azure Blob Storage，然後在 SSML 裡引用：
 
 ```xml
 <speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis"
        xmlns:mstts="http://www.w3.org/2001/mstts"
-       xml:lang="zh-TW">
-    <voice name="zh-TW-HsiaoChenNeural">
-        <lexicon uri="https://raw.githubusercontent.com/mcw519/azure-tts-lexicon-tw/main/lexicon.xml"/>
-        這款產品有維他命 B1。
+       xml:lang="en-US">
+    <voice name="en-US-AvaNeural">
+        <lexicon uri="https://raw.githubusercontent.com/<your-account>/<your-repo>/<your-branch>/lexicon.xml"/>
+        BTW, I've added the SKU to OpenAI FAQ notes for Benigni.
     </voice>
 </speak>
 ```
 
-Azure 官方文件可參考：
-https://learn.microsoft.com/zh-tw/azure/ai-services/speech-service/speech-synthesis-markup-pronunciation#custom-lexicon
+Azure 官方文件：
+https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-synthesis-markup-pronunciation#custom-lexicon
+
+## 目前詞典內容
+
+這份範例目前包含幾類常見條目：
+
+1. 縮寫展開，例如 `BTW`、`FAQ`、`SKU`、`OpenAI`。
+2. 單字或名稱發音，例如 `GitHub`、`Benigni`、`I've`。
+
+注意：Azure custom lexicon 的 `lexeme` 是區分大小寫的，所以 `GitHub` 和 `github` 會被視為不同詞條。
 
 ## Azure 使用注意
 
-這份詞典是否生效，關鍵在於 Azure 最後收到的內容是不是包含 `<lexicon uri="..."/>` 的 SSML。
+詞典是否生效，關鍵在於 Azure 最後收到的請求是不是包含 `<lexicon uri="..."/>` 的 SSML。
 
 也就是說：
 
-1. 這份 lexicon 必須放在 Azure 可公開存取的 URL。
-2. 送到 Azure TTS 的 SSML 內必須真的包含 `<lexicon uri="..."/>`。
-3. 如果實際送到 Azure 的只是純文字，而不是帶有 `lexicon` 標籤的 SSML，這份詞典就不會生效。
+1. 詞典檔案必須能從公網存取。
+2. 你實際送到 Azure TTS 的內容必須是 SSML，而不是純文字。
+3. SSML 內必須真的有 `<lexicon uri="..."/>`。
+4. 自訂 lexicon 以 URI 為快取 key，更新同一個 URL 後，Azure 端最多可能需要約 15 分鐘才會刷新。
+
+另外一個常見限制是：custom lexicon 比較適合單一實體、縮寫或專有名詞。如果你要控制一整段片語的讀法，通常先拆成 `alias`，或直接在 SSML 內用 `sub` / `phoneme` 會更穩。
 
 ## 驗證流程
 
-這個 repo 已經有兩層驗證：
+這個 repo 目前有兩層驗證：
 
-1. 本地 quick check：先檢查 XML 是否完整、根節點是否還是 PLS 1.0、`xml:lang` 和 `alphabet` 是否被改壞、以及每個 `lexeme` 是否至少有 `grapheme` 和 `alias/phoneme`。
-2. CI 正式驗證：push 或 PR 時，GitHub Actions 會執行 Azure Samples 提供的 `CustomLexiconValidation` 工具。這一層比較接近 Azure Speech 真正會接受的規格。
+1. 本地 quick check：檢查 XML 是否完整、根節點與 namespace 是否正確、`xml:lang` / `alphabet` 是否符合 repo 設定，以及每個 `lexeme` 是否至少包含 `grapheme` 加上 `alias` 或 `phoneme`。
+2. CI 正式驗證：GitHub Actions 會跑 Azure Samples 提供的 `CustomLexiconValidation` 工具，這一層更接近 Azure Speech 真正接受的格式。
 
 本地 quick check：
 
@@ -59,21 +61,20 @@ https://learn.microsoft.com/zh-tw/azure/ai-services/speech-service/speech-synthe
 ./scripts/validate-lexicon.sh
 ```
 
-補充：本地腳本主要是擋結構性錯誤，像是 XML 壞掉、必要欄位漏掉、root metadata 被改錯。`alias` 是否合理、phoneme token 是否合法、某些條目是否違反 Azure lexicon 細節規則，仍以 CI 內的 Azure 官方 validator 為準。
+因為目前詞典使用 `alphabet="ipa"`，本地檢查也會額外擋掉包含空白的 IPA phoneme，避免像 SAPI phone set 那樣的空白分隔寫法混進來。
 
-再補一個實務坑：Azure Learn 文件對 custom lexicon 的 `alphabet` 明確寫 `x-microsoft-sapi`，但 Azure Samples 提供的 `CustomLexiconValidation` 工具目前仍只接受 `sapi` 這個 enum 值。這個 repo 的做法是保留原始 [lexicon.xml](lexicon.xml) 與官方文件一致，在 CI 裡另外產生一份暫存檔，把 `x-microsoft-sapi` 正規化成 `sapi` 後再丟給 validator，避免為了遷就舊工具而改壞正式詞典格式。
+## 維護建議
 
-## 維護與貢獻
+主要維護的檔案是 [lexicon.xml](lexicon.xml)。新增詞條時，可以優先用以下原則：
 
-如果你發現某些詞在 Azure TTS 中的發音不正確，可以透過 issue 回報，或直接提交 PR。
+1. 縮寫、產品代號、多詞片語，先考慮用 `alias`。
+2. 單字、人名、品牌名，確定讀音後再用 `phoneme`。
+3. 若使用 `ipa`，`phoneme` 內容不要有空白。
+4. 如果某個詞有大小寫差異，就分開建立 lexeme。
 
-主要需要調整的檔案是 [lexicon.xml](lexicon.xml)。格式不算複雜，直接參考現有詞條通常就能理解寫法。
-
-如果你想維護自己的版本，也可以 fork 這個 repo，再把 SSML 裡的詞典連結改成你自己的路徑：
+如果你要改成自己的公開 URL，可以把 SSML 中的 lexicon 連結換成：
 
 ```text
-https://raw.githubusercontent.com/<你的 GitHub 使用者名稱>/azure-tts-lexicon-tw/main/lexicon.xml
+https://raw.githubusercontent.com/<your-account>/<your-repo>/<your-branch>/lexicon.xml
 ```
-
-補充：目前詞典內容以 Azure lexicon 規格與既有 alias 策略為主，新增詞條時請優先考慮直接用中文或可穩定發音的替代文字做 `alias`；只有在確認 Azure validator 可接受時，再考慮加入 phoneme。
 

@@ -4,317 +4,607 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://www.w3.org/2005/01/pronunciation-lexicon
            http://www.w3.org/TR/2007/CR-pronunciation-lexicon-20071212/pls.xsd"
-         alphabet="x-microsoft-sapi"
-         xml:lang="zh-TW">
+         alphabet="ipa"
+         xml:lang="en-US">
 
   <lexeme>
-    <grapheme>調味料</grapheme>
-    <alias>條味料</alias>
+    <grapheme>API</grapheme>
+    <alias>A P I</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>調味</grapheme>
-    <alias>條味</alias>
+    <grapheme>api</grapheme>
+    <alias>A P I</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>B1</grapheme>
-    <alias>逼萬</alias>
+    <grapheme>APIs</grapheme>
+    <alias>A P I's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>B2</grapheme>
-    <alias>逼兔</alias>
+    <grapheme>apis</grapheme>
+    <alias>A P I's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命 B1</grapheme>
-    <alias>維他命逼萬</alias>
+    <grapheme>ASAP</grapheme>
+    <alias>A S A P</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命B1</grapheme>
-    <alias>維他命逼萬</alias>
+    <grapheme>asap</grapheme>
+    <alias>A S A P</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命 B2</grapheme>
-    <alias>維他命逼兔</alias>
+    <grapheme>BTW</grapheme>
+    <alias>By the way</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命B2</grapheme>
-    <alias>維他命逼兔</alias>
+    <grapheme>btw</grapheme>
+    <alias>By the way</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命 B3</grapheme>
-    <alias>維他命逼三</alias>
+    <grapheme>CEO</grapheme>
+    <alias>C E O</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命B3</grapheme>
-    <alias>維他命逼三</alias>
+    <grapheme>ceo</grapheme>
+    <alias>C E O</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命 B5</grapheme>
-    <alias>維他命逼五</alias>
+    <grapheme>CEOs</grapheme>
+    <alias>C E O's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命B5</grapheme>
-    <alias>維他命逼五</alias>
+    <grapheme>ceos</grapheme>
+    <alias>C E O's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命 B6</grapheme>
-    <alias>維他命逼六</alias>
+    <grapheme>CFO</grapheme>
+    <alias>C F O</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命B6</grapheme>
-    <alias>維他命逼六</alias>
+    <grapheme>cfo</grapheme>
+    <alias>C F O</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命 B7</grapheme>
-    <alias>維他命逼七</alias>
+    <grapheme>CFOs</grapheme>
+    <alias>C F O's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命B7</grapheme>
-    <alias>維他命逼七</alias>
+    <grapheme>cfos</grapheme>
+    <alias>C F O's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命 B9</grapheme>
-    <alias>維他命逼九</alias>
+    <grapheme>CLI</grapheme>
+    <alias>C L I</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命B9</grapheme>
-    <alias>維他命逼九</alias>
+    <grapheme>cli</grapheme>
+    <alias>C L I</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命 B12</grapheme>
-    <alias>維他命逼十二</alias>
+    <grapheme>CLIs</grapheme>
+    <alias>C L I's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維他命B12</grapheme>
-    <alias>維他命逼十二</alias>
+    <grapheme>clis</grapheme>
+    <alias>C L I's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素 B1</grapheme>
-    <alias>維生素逼萬</alias>
+    <grapheme>COO</grapheme>
+    <alias>C O O</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素B1</grapheme>
-    <alias>維生素逼萬</alias>
+    <grapheme>coo</grapheme>
+    <alias>C O O</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素 B2</grapheme>
-    <alias>維生素逼兔</alias>
+    <grapheme>COOs</grapheme>
+    <alias>C O O's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素B2</grapheme>
-    <alias>維生素逼兔</alias>
+    <grapheme>coos</grapheme>
+    <alias>C O O's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素 B3</grapheme>
-    <alias>維生素逼三</alias>
+    <grapheme>CRM</grapheme>
+    <alias>C R M</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素B3</grapheme>
-    <alias>維生素逼三</alias>
+    <grapheme>crm</grapheme>
+    <alias>C R M</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素 B5</grapheme>
-    <alias>維生素逼五</alias>
+    <grapheme>CRMs</grapheme>
+    <alias>C R M's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素B5</grapheme>
-    <alias>維生素逼五</alias>
+    <grapheme>crms</grapheme>
+    <alias>C R M's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素 B6</grapheme>
-    <alias>維生素逼六</alias>
+    <grapheme>CSS</grapheme>
+    <alias>C S S</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素B6</grapheme>
-    <alias>維生素逼六</alias>
+    <grapheme>css</grapheme>
+    <alias>C S S</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素 B7</grapheme>
-    <alias>維生素逼七</alias>
+    <grapheme>CTO</grapheme>
+    <alias>C T O</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素B7</grapheme>
-    <alias>維生素逼七</alias>
+    <grapheme>cto</grapheme>
+    <alias>C T O</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素 B9</grapheme>
-    <alias>維生素逼九</alias>
+    <grapheme>CTOs</grapheme>
+    <alias>C T O's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素B9</grapheme>
-    <alias>維生素逼九</alias>
+    <grapheme>ctos</grapheme>
+    <alias>C T O's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素 B12</grapheme>
-    <alias>維生素逼十二</alias>
+    <grapheme>ETA</grapheme>
+    <alias>E T A</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素B12</grapheme>
-    <alias>維生素逼十二</alias>
+    <grapheme>eta</grapheme>
+    <alias>E T A</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素 D2</grapheme>
-    <alias>維生素滴吐</alias>
+    <grapheme>ETAs</grapheme>
+    <alias>E T A's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素D2</grapheme>
-    <alias>維生素滴吐</alias>
+    <grapheme>etas</grapheme>
+    <alias>E T A's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素 D3</grapheme>
-    <alias>維生素滴三</alias>
+    <grapheme>FAQ</grapheme>
+    <alias>F A Q</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>維生素D3</grapheme>
-    <alias>維生素滴三</alias>
+    <grapheme>faq</grapheme>
+    <alias>F A Q</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>說服</grapheme>
-    <alias>稅服</alias>
+    <grapheme>FAQs</grapheme>
+    <alias>F A Q's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>正露丸</grapheme>
-    <alias>正路丸</alias>
+    <grapheme>faqs</grapheme>
+    <alias>F A Q's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>輔酶 Q10</grapheme>
-    <alias>輔酶 Q ten</alias>
+    <grapheme>FYI</grapheme>
+    <alias>F Y I</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>輔酶Q10</grapheme>
-    <alias>輔酶 Q ten</alias>
+    <grapheme>fyi</grapheme>
+    <alias>F Y I</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>量力而為</grapheme>
-    <alias>亮力而為</alias>
+    <grapheme>GitHub</grapheme>
+    <phoneme>ˈɡɪthʌb</phoneme>
   </lexeme>
 
   <lexeme>
-    <grapheme>量測完成</grapheme>
-    <alias>梁測完成</alias>
+    <grapheme>github</grapheme>
+    <phoneme>ˈɡɪthʌb</phoneme>
   </lexeme>
 
   <lexeme>
-    <grapheme>量測</grapheme>
-    <alias>梁測</alias>
+    <grapheme>GUI</grapheme>
+    <alias>G U I</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>媽媽露</grapheme>
-    <alias>媽媽鹿</alias>
+    <grapheme>gui</grapheme>
+    <alias>G U I</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>日常點心</grapheme>
-    <alias>日常點新</alias>
+    <grapheme>GUIs</grapheme>
+    <alias>G U I's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>補給站</grapheme>
-    <alias>補幾站</alias>
+    <grapheme>guis</grapheme>
+    <alias>G U I's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>新露露</grapheme>
-    <alias>新路鹿</alias>
+    <grapheme>HTML</grapheme>
+    <alias>H T M L</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>不太舒服</grapheme>
-    <alias>不太書服</alias>
+    <grapheme>html</grapheme>
+    <alias>H T M L</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>調飲料</grapheme>
-    <alias>條飲料</alias>
+    <grapheme>HR</grapheme>
+    <alias>H R</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>血壓</grapheme>
-    <alias>寫壓</alias>
+    <grapheme>hr</grapheme>
+    <alias>H R</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>血氧</grapheme>
-    <alias>寫氧</alias>
+    <grapheme>I've</grapheme>
+    <phoneme>aɪv</phoneme>
   </lexeme>
 
   <lexeme>
-    <grapheme>儘快</grapheme>
-    <alias>進快</alias>
+    <grapheme>JSON</grapheme>
+    <alias>Jason</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>為您</grapheme>
-    <alias>胃您</alias>
+    <grapheme>json</grapheme>
+    <alias>Jason</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>生理量測</grapheme>
-    <alias>生理梁測</alias>
+    <grapheme>JWT</grapheme>
+    <alias>J W T</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>重新</grapheme>
-    <alias>崇新</alias>
+    <grapheme>jwt</grapheme>
+    <alias>J W T</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>沖調區</grapheme>
-    <alias>沖條區</alias>
+    <grapheme>JWTs</grapheme>
+    <alias>J W T's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>沖調</grapheme>
-    <alias>沖條</alias>
+    <grapheme>jwts</grapheme>
+    <alias>J W T's</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>沖調類</grapheme>
-    <alias>沖條類</alias>
+    <grapheme>KPI</grapheme>
+    <alias>K P I</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>kpi</grapheme>
+    <alias>K P I</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>KPIs</grapheme>
+    <alias>K P I's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>kpis</grapheme>
+    <alias>K P I's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>macOS</grapheme>
+    <alias>mac O S</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>MacOS</grapheme>
+    <alias>mac O S</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>macos</grapheme>
+    <alias>mac O S</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>nginx</grapheme>
+    <alias>engine x</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>Nginx</grapheme>
+    <alias>engine x</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>NGINX</grapheme>
+    <alias>engine x</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>npm</grapheme>
+    <alias>N P M</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>NPM</grapheme>
+    <alias>N P M</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>NuGet</grapheme>
+    <alias>new get</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>nuget</grapheme>
+    <alias>new get</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>OpenAI</grapheme>
+    <alias>Open A I</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>openai</grapheme>
+    <alias>Open A I</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>README</grapheme>
+    <alias>read me</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>readme</grapheme>
+    <alias>read me</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>READMEs</grapheme>
+    <alias>read me's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>readmes</grapheme>
+    <alias>read me's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>RSVP</grapheme>
+    <alias>R S V P</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>rsvp</grapheme>
+    <alias>R S V P</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>SaaS</grapheme>
+    <alias>sass</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>saas</grapheme>
+    <alias>sass</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>SDK</grapheme>
+    <alias>S D K</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>sdk</grapheme>
+    <alias>S D K</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>SDKs</grapheme>
+    <alias>S D K's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>sdks</grapheme>
+    <alias>S D K's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>SKU</grapheme>
+    <alias>S K U</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>sku</grapheme>
+    <alias>S K U</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>SKUs</grapheme>
+    <alias>S K U's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>skus</grapheme>
+    <alias>S K U's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>SQL</grapheme>
+    <alias>S Q L</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>sql</grapheme>
+    <alias>S Q L</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>UI</grapheme>
+    <alias>U I</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>ui</grapheme>
+    <alias>U I</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>UIs</grapheme>
+    <alias>U I's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>uis</grapheme>
+    <alias>U I's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>URI</grapheme>
+    <alias>U R I</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>uri</grapheme>
+    <alias>U R I</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>URIs</grapheme>
+    <alias>U R I's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>uris</grapheme>
+    <alias>U R I's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>URL</grapheme>
+    <alias>U R L</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>url</grapheme>
+    <alias>U R L</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>URLs</grapheme>
+    <alias>U R L's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>urls</grapheme>
+    <alias>U R L's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>UUID</grapheme>
+    <alias>U U I D</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>uuid</grapheme>
+    <alias>U U I D</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>UUIDs</grapheme>
+    <alias>U U I D's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>uuids</grapheme>
+    <alias>U U I D's</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>UX</grapheme>
+    <alias>U X</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>ux</grapheme>
+    <alias>U X</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>WiFi</grapheme>
+    <alias>why fi</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>wifi</grapheme>
+    <alias>why fi</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>Wi-Fi</grapheme>
+    <phoneme>ˈwaɪˌfaɪ</phoneme>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>wi-fi</grapheme>
+    <phoneme>ˈwaɪˌfaɪ</phoneme>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>XML</grapheme>
+    <alias>X M L</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>xml</grapheme>
+    <alias>X M L</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>Benigni</grapheme>
+    <phoneme>bɛˈniːnji</phoneme>
   </lexeme>
 
 </lexicon>
