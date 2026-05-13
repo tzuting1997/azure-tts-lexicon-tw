@@ -283,6 +283,16 @@
   </lexeme>
 
   <lexeme>
+    <grapheme>'ve</grapheme>
+    <phoneme>v</phoneme>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>ve</grapheme>
+    <phoneme>v</phoneme>
+  </lexeme>
+
+  <lexeme>
     <grapheme>JSON</grapheme>
     <alias>Jason</alias>
   </lexeme>
