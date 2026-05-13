@@ -3,13 +3,11 @@ name: CI
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
     paths:
       - lexicon.xml
       - scripts/validate-lexicon.sh
       - .github/workflows/ci.yaml
   pull_request:
-    branches: [ main ]
     paths:
       - lexicon.xml
       - scripts/validate-lexicon.sh
