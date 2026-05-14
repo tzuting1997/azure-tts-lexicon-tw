@@ -317,4 +317,129 @@
     <alias>沖條類</alias>
   </lexeme>
 
+  <lexeme>
+    <grapheme>苦橙純露</grapheme>
+    <alias>苦橙純路</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>洗髮露</grapheme>
+    <alias>洗髮路</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>味醂</grapheme>
+    <alias>味林</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>露露</grapheme>
+    <alias>露路</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>品質</grapheme>
+    <alias>品直</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>蛋白質</grapheme>
+    <alias>蛋白直</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>鈣質</grapheme>
+    <alias>鈣直</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>體質</grapheme>
+    <alias>體直</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>物質</grapheme>
+    <alias>物直</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>過期</grapheme>
+    <alias>過其</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>期限</grapheme>
+    <alias>其限</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>星期</grapheme>
+    <alias>星其</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>保存期限</grapheme>
+    <alias>保存其限</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>血液</grapheme>
+    <alias>寫易</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>液體</grapheme>
+    <alias>易體</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>處方</grapheme>
+    <alias>楚方</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>處理</grapheme>
+    <alias>楚理</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>強迫</grapheme>
+    <alias>搶迫</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>給予</grapheme>
+    <alias>擠予</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>提供</grapheme>
+    <alias>提工</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>劑量</grapheme>
+    <alias>劑亮</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>適量</grapheme>
+    <alias>適亮</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>含量</grapheme>
+    <alias>含亮</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>用量</grapheme>
+    <alias>用亮</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>答應</grapheme>
+    <alias>搭應</alias>
+  </lexeme>
+
 </lexicon>
