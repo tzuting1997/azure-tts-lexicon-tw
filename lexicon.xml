@@ -442,4 +442,14 @@
     <alias>搭應</alias>
   </lexeme>
 
+  <lexeme>
+    <grapheme>維他露</grapheme>
+    <alias>維他路</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>每朝健康</grapheme>
+    <alias>每招健康</alias>
+  </lexeme>
+
 </lexicon>
