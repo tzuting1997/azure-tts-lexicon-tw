@@ -457,4 +457,19 @@
     <alias>洗目路</alias>
   </lexeme>
 
+  <lexeme>
+    <grapheme>小磨坊</grapheme>
+    <alias>小魔坊</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>囤貨</grapheme>
+    <alias>屯貨</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>舒服</grapheme>
+    <alias>書福</alias>
+  </lexeme>
+
 </lexicon>
