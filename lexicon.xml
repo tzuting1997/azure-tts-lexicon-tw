@@ -472,4 +472,24 @@
     <alias>書福</alias>
   </lexeme>
 
+  <lexeme>
+    <grapheme>咖哩</grapheme>
+    <alias>嘎裡</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>咖哩包</grapheme>
+    <alias>嘎裡包</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>咖哩口味</grapheme>
+    <alias>嘎裡口味</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>咖哩粉</grapheme>
+    <alias>嘎裡粉</alias>
+  </lexeme>
+
 </lexicon>
