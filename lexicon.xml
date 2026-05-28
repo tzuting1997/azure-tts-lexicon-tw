@@ -492,4 +492,14 @@
     <alias>嘎裡粉</alias>
   </lexeme>
 
+  <lexeme>
+    <grapheme>每朝</grapheme>
+    <alias>每招</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>每朝健康</grapheme>
+    <alias>每招健康</alias>
+  </lexeme>
+
 </lexicon>
