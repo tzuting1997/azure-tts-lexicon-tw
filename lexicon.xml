@@ -234,12 +234,12 @@
 
   <lexeme>
     <grapheme>量測完成</grapheme>
-    <alias>梁測完成</alias>
+    <alias>涼測完成</alias>
   </lexeme>
 
   <lexeme>
     <grapheme>量測</grapheme>
-    <alias>梁測</alias>
+    <alias>涼測</alias>
   </lexeme>
 
   <lexeme>
@@ -294,7 +294,7 @@
 
   <lexeme>
     <grapheme>生理量測</grapheme>
-    <alias>生理梁測</alias>
+    <alias>生理涼測</alias>
   </lexeme>
 
   <lexeme>
@@ -495,6 +495,11 @@
   <lexeme>
     <grapheme>每朝</grapheme>
     <alias>每招</alias>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>荷爾蒙</grapheme>
+    <alias>賀耳萌</alias>
   </lexeme>
 
 </lexicon>
