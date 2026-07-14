@@ -502,4 +502,9 @@
     <alias>賀耳萌</alias>
   </lexeme>
 
+  <lexeme>
+    <grapheme>BRAVIA</grapheme>
+    <phoneme alphabet="ipa">bɹˈɑːviːɑː</phoneme>
+  </lexeme>
+
 </lexicon>
