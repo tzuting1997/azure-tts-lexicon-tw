@@ -504,7 +504,17 @@
 
   <lexeme>
     <grapheme>BRAVIA</grapheme>
-    <phoneme alphabet="ipa">bɹˈɑːviːɑː</phoneme>
+    <phoneme alphabet="ipa">ˈbɹɑːviːɑː</phoneme>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>Bravia</grapheme>
+    <phoneme alphabet="ipa">ˈbɹɑːviːɑː</phoneme>
+  </lexeme>
+
+  <lexeme>
+    <grapheme>bravia</grapheme>
+    <phoneme alphabet="ipa">ˈbɹɑːviːɑː</phoneme>
   </lexeme>
 
 </lexicon>
