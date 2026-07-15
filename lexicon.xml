@@ -503,6 +503,11 @@
   </lexeme>
 
   <lexeme>
+    <grapheme>II</grapheme>
+    <alias>第二代</alias>
+  </lexeme>
+
+  <lexeme>
     <grapheme>BRAVIA</grapheme>
     <phoneme alphabet="ipa">ˈbɹɑːviːɑː</phoneme>
   </lexeme>
