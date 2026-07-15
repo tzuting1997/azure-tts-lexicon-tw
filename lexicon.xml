@@ -507,4 +507,9 @@
     <phoneme alphabet="ipa">bɹˈɑːviːɑː</phoneme>
   </lexeme>
 
+  <lexeme>
+    <grapheme>II</grapheme>
+    <alias>二代</alias>
+  </lexeme>
+
 </lexicon>
