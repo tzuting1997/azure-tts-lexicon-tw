@@ -4,7 +4,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://www.w3.org/2005/01/pronunciation-lexicon
            http://www.w3.org/TR/2007/CR-pronunciation-lexicon-20071212/pls.xsd"
-         alphabet="ipa"
+         alphabet="x-microsoft-sapi"
          xml:lang="zh-TW">
 
   <lexeme>
@@ -503,13 +503,13 @@
   </lexeme>
 
   <lexeme>
-    <grapheme>BRAVIA</grapheme>
-    <phoneme>ˈbɹɑːviːɑː</phoneme>
+    <grapheme>II</grapheme>
+    <alias>第二代</alias>
   </lexeme>
 
   <lexeme>
-    <grapheme>II</grapheme>
-    <alias>第二代</alias>
+    <grapheme>BRAVIA</grapheme>
+    <phoneme alphabet="ipa">bɹˈɑːviːɑː</phoneme>
   </lexeme>
 
 </lexicon>
